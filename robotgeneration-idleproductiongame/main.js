@@ -1,5 +1,5 @@
+num = 0;
 function test() {
-
-  document.getElementById("test").hide()
-
-}
+  num += 1;
+  document.getElementById("test").innerHTML = num
+};
